@@ -1,12 +1,11 @@
- customer_id              
- details
- license_plate
- id
- manufactured_month
- manufactured_year
- model_name
- vechicle_equipment
- vechicle_power_supply
- vechicle_tyre_size
- vechicle_type_id
- vechicle_value
+ customer_id                TYNYINT     UNSIGNED
+ details                    TEXT
+ license_plate              VARCHAR(7)
+ manufactured_month         TIMESTAMP
+ manufactured_year          YEAR
+ model_name                 VARCHAR(20)
+ vechicle_equipment         VARCHAR(255)
+ vechicle_power_supply      VARCHAR(20)
+ vechicle_tyre_size         TYNYINT     UNSIGNED
+ vechicle_type              VARCHAR(20)          
+ vechicle_value             TYNYINT     UNSIGNED
