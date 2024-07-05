@@ -1,0 +1,12 @@
+ customer_id              
+ details
+ license_plate
+ id
+ manufactured_month
+ manufactured_year
+ model_name
+ vechicle_equipment
+ vechicle_power_supply
+ vechicle_tyre_size
+ vechicle_type_id
+ vechicle_value
