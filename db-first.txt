@@ -9,3 +9,7 @@
  vechicle_tyre_size         TYNYINT     UNSIGNED
  vechicle_type              VARCHAR(20)          
  vechicle_value             TYNYINT     UNSIGNED
+ parking_number             TYNYINT     UNSIGNED
+ phone_number               VARCHAR(10)
+ stock_date                 DATE
+ stock_position             VARCHAR(15)
