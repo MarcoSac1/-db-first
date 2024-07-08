@@ -1,15 +1,15 @@
- customer_id                TYNYINT     UNSIGNED
- details                    TEXT
- license_plate              VARCHAR(7)
- manufactured_month         TIMESTAMP
- manufactured_year          YEAR
- model_name                 VARCHAR(20)
- vechicle_equipment         VARCHAR(255)
- vechicle_power_supply      VARCHAR(20)
- vechicle_tyre_size         TYNYINT     UNSIGNED
- vechicle_type              VARCHAR(20)          
- vechicle_value             TYNYINT     UNSIGNED
- parking_number             TYNYINT     UNSIGNED
- phone_number               VARCHAR(10)
- stock_date                 DATE
- stock_position             VARCHAR(15)
+ customer_id                MEDIUMINT       UNSIGNED   NOT_NULL, AUTO_INCREMENT       PRIMARY_KEY
+ details                    TEXT            NOT_NULL
+ license_plate              VARCHAR(7)      NOT_NULL
+ manufactured_month         TIMESTAMP       NOT_NULL
+ manufactured_year          YEAR            NOT_NULL
+ model_name                 VARCHAR(20)     NOT_NULL
+ vechicle_equipment         VARCHAR(255)    NOT_NULL
+ vechicle_power_supply      VARCHAR(20)     NOT_NULL
+ vechicle_tyre_size         TYNYINT         UNSIGNED
+ vechicle_type              VARCHAR(20)     NOT_NULL
+ vechicle_value             TYNYINT         UNSIGNED
+ parking_number             SMALLINT        UNSIGNED
+ phone_number               VARCHAR(10)     NOT_NULL
+ stock_date                 DATE            NOT_NULL
+ stock_position             VARCHAR(15)     NOT_NULL
